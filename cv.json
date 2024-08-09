@@ -1,0 +1,108 @@
+{
+  "basics": {
+    "name": "Maximiliano Nava",
+    "label": "DESARROLLADOR WEB",
+    "image": "https://avatars.githubusercontent.com/u/103599969?v=4",
+    "email": "max.s015@outlook.com",
+    "phone": "(844) 268-9547",
+    "summary": "Estudiante de Ingeniería en Sistemas Computacionales con pasión por el desarrollo web, en busca de una oportunidad de pasantía para aprovechar mis conocimientos académicos y experiencia práctica en el desarrollo de aplicaciones.",
+    "location": {
+      "city": "Saltillo",
+      "region": "Coahuila"
+    },
+    "profiles": [
+      {
+        "network": "twitter",
+        "url": "https://twitter.com/Max_SNava"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/MaxSNava"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://linkedin.com/in/maxsnava"
+      }
+    ]
+  },
+  "languages": [
+  {
+    "language": "Español",
+    "fluency": "Lengua nativa"
+  },
+  {
+    "language": "English",
+    "fluency": "B1 (MCER)"
+  }
+],
+  "work": [
+    {
+      "name": "Centro de Educación ambiental y vigilancia climática (CEAV)",
+      "position": "Responsable de servidores",
+      "url": "---",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Realicé el mantenimiento e instalación de servidores Ubuntu Linux, asegurando un rendimiento y seguridad óptimos.",
+      "highlights": [
+        "Mantenimiento de Servidores"
+      ]
+    },
+    {
+      "name": "QVOZ Estrategias de Comunicación y Mercadotecnia",
+      "position": "Servicios de TI",
+      "url": "---",
+      "startDate": "2023-10-01",
+      "endDate": "2024-08-01",
+      "summary": "Desarrollé páginas web responsivas utilizando HTML, CSS y JavaScript, ofreciendo interfaces amigables para el usuario.",
+      "highlights": [
+        "Diseño web"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Autónoma del Noreste",
+      "studyType": "Preparatoria",
+      "startDate": "2017-01-01",
+      "endDate": "2020-01-01"
+    },
+    {
+      "institution": "Universidad Autónoma de Coahuila",
+      "studyType": "Universidad",
+      "startDate": "2020-01-01",
+      "endDate": null
+    }
+  ],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}

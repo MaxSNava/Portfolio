@@ -1,0 +1,50 @@
+---
+import Section from "@/components/Section.astro";
+
+import {basics, languages} from "@cv";
+const {summary} = basics;
+---
+
+<Section title="Sobre Mi">
+  <p>
+    {summary}
+  </p>
+  <div class="nes-container is-rounded is-dark languages-container">
+    {
+      languages.map(({language, fluency}) => (
+        <div class="language-card">
+          <p class="language-name">{language}</p>
+          <p class="language-fluency">{fluency}</p>
+        </div>
+      ))
+    }
+  </div>
+</Section>
+
+<style>
+  p {
+    color: #aaa;
+  }
+  .languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .language-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1px;
+    width: 150px;
+    text-align: center;
+  }
+  .language-name {
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+  }
+  .language-fluency {
+    font-size: 10px;
+  }
+
+</style>
